@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Gallery</title>
+    <link rel="stylesheet" type="text/css" href="Shoot.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body class="G_body">
+      <nav class="G_nav">
+          <div class="G_navL">
+            <a href="Shoot.html">The Shoot</a>
+          </div>
+          <div class="topnav" id="myTopnav">
+            <a href="Shoot.html">Home</a>
+            <a href="AboutMe.html">About Me</a>
+            <a href="Gallery.html">Gallery</a>
+            <a href="Contact.html">Contact Me</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+          <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+          </script>
+      </nav>
+        <section class="G_section">
+          <div class="G_section1">
+            <a href="City.html">The City</a>
+            <p> Click on the image to see the beautiful view of the</p>
+            <p>City</p>
+            <br>
+            <a id="G_img1" href="City.html"><img src="city(change).jpg"></a>
+          </div>
+          <div class="G_section2">
+            <a href="Countryside.html">The Countryside</a>
+            <p>Click on the image to see the beautiful view of the</p>
+            <p>Countryside</p>
+            <br>
+            <a id="G_img2" href="Countryside.html"><img src="countryside(change).jpg"></a>
+          </div>
+        </section>
+  </body>
+</html>

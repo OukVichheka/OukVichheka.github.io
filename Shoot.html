@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <title>Shoot</title>
+      <link rel="stylesheet"  type="text/css" href="Shoot.css" >
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body class="main_body">
+        <nav class="main_nav">
+            <div class="main_navL">
+                <a href="Shoot.html"></a>
+                <a href="Shoot.html">The Shoot</a>
+            </div>
+
+
+            <div class="topnav" id="myTopnav">
+              <a href="Shoot.html">Home</a>
+              <a href="AboutMe.html">About Me</a>
+              <a href="Gallery.html">Gallery</a>
+              <a href="Contact.html">Contact Me</a>
+              <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+
+            <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
+
+        </nav>
+
+        <section class="main_section1">
+            <article class="main_article">
+                  <h2>Welcome to The Shoot</h2>
+                  <p align="center">Hello guy</p>
+                  <p style="margin-left:10px;">Welcome to my photograhy website</p>
+                  <p></p>
+            </article>
+            <div class="main_img" >
+              <figure>
+              <img src="IMG_4343main1.jpg" alt="1" class="responsive">
+            </figure>
+            <figure>
+              <img src="IMG_5404main2.jpg" alt="2" class="responsive">
+            </figure>
+            <figure>
+              <img src="IMG_5948main3.jpg" alt="3" class="responsive">
+            </figure>
+            <figure>
+              <img src="IMG_5977main4.jpg" alt="4" class="responsive">
+            </figure>
+            </div>
+        </section>
+
+        </footer>
+    </body>
+</html>

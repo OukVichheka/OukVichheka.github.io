@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="Shoot.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body class="c_body">
+    <nav class="c_nav">
+      <div class="c_navL">
+        <a href="Shoot.html">The Shoot</a>
+      </div>
+      <div class="topnav" id="myTopnav">
+        <a href="Shoot.html">Home</a>
+        <a href="AboutMe.html">About Me</a>
+        <a href="Gallery.html">Gallery</a>
+        <a href="Contact.html">Contact Me</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+    </nav>
+    <header class="c_head">
+        <h2>Contact Me</h2>
+    </header>
+    <section class="  c_sec">
+        <div class="c_secL">
+            <input type="text" name="name" placeholder="Enter your name">
+            <br>
+            <input type="email" name="email" placeholder="Enter your email">
+            <br>
+            <textarea id="T_area">
+            </textarea>
+            <br>
+            <input style="width:100px;height:30px" type="submit" value="Send">
+        </div>
+        <div class="c_secR">
+            <div class="map">
+                <p id="locat">Location</p>
+                <p>2011 Oknha Try Heng St. (2011), Phnom Penh</p>
+                <img src="map.jpg" alt="">
+                <a></a>
+            </div>
+        </div>
+    </section>
+    <footer class="contact_footer">
+      <div class="contact_footerL">
+        <p>Social Media</p>
+        <a href="https://www.instagram.com/vicheka_ouk/?hl=en" target="_blank"><img id="insta" height=30px; width=30px; src="instagram.svg" alt=""></a>
+        <a id="FB" href="https://www.facebook.com/profile.php?id=100012490747983" target="_blank"><img height=30px; width=30px;  src="facebook.svg" alt=""></a>
+        <a id="LiN" href="https://www.linkedin.com/in/ouk-vichheka-7423a2187/" target="_blank"><img height=40px; width=40px;  src="linkedin-in-brands.svg" alt=""></a>
+      </div>
+      <div class="contact_footerR">
+        <p >&copycopyright2019</p>
+        <p>VichekaOuk(Mr.Avocado)</p>
+    </footer>
+  </body>
+</html>
